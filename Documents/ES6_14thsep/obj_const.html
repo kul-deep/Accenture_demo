@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+    <body>
+
+        <h2> declaring a constant array does not ake the elements unchangeble</h2>
+
+        <p id="demo"></p>
+
+        <script>
+
+            const cars={
+                type:"flat",
+                model:"500",
+                color:"red"
+            };
+            cars.color="black";
+            cars.owner="ABD"
+            document.getElementById("demo").innerHTML="Car owner is " + cars.owner;
+
+        </script>
+
+    </body>
+
+</html>
